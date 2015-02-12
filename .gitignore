@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+!empty
+
+_project
+
+npm-debug.log
+node_modules/*
+dist/*
+bower_components/*
+src/vendor/*

@@ -1,7 +1,7 @@
 grunt-bs-groundwrk
 ================
 
-Opinionated kick starter for a static site, built on Grunt.js with Bower, Assemble, Bootstrap, Require.js with a little H5BP.
+Opinionated kick starter for a static site, built on Grunt.js with Bower, Assemble, Bootstrap, Require.js and a little H5BP.
 
 
 ##Getting started
@@ -38,17 +38,17 @@ This is a kick starter primarily for Require.js and Bootstrap, providing a found
 
 [jQuery](//jquery.com/), specific [jQuery UI](//jqueryui.com/) components, [Bootstrap](//getbootstrap.com/), [Modernizr](//github.com/Modernizr/grunt-modernizr) and [Web Font Loader](//developers.google.com/fonts/docs/webfont_loader) are part of the [Require.js](//requirejs.org/) build.
 
-Using grunt-text-replace to remove Bootstrap Glyphicons from bootstrap.less and using Font Awesome instead.
+Also using grunt-text-replace to remove Bootstrap Glyphicons from bootstrap.less, using Font Awesome instead.
 
 Some test scripts have been created to demonstrate the structure and use of [Require.js](//requirejs.org/).  You can see what's loaded from the console.
 
-The [RequireJS Plugins](//github.com/millermedeiros/requirejs-plugins) project is used to to use get [Google fonts](//www.google.com/fonts) using the [Web Font Loader](//developers.google.com/fonts/docs/webfont_loader) via the [Google CDN](//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js).
+[RequireJS Plugins](//github.com/millermedeiros/requirejs-plugins) is used to use get [Google fonts](//www.google.com/fonts) using the [Web Font Loader](//developers.google.com/fonts/docs/webfont_loader) via the [Google CDN](//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js).
 
 ##Configuration
 
 The Grunt tasks are organised using [Thomas Boyt's approach, More maintainable Gruntfiles](http://www.thomasboyt.com/2013/09/01/maintainable-grunt.html).
 
-There is an config.json file in the grunt directory where you can set the asset path and theme name.  Grunt config uses these variables as does Assemble, so there should be no additional configuration, other than naming the appropriate directories.
+There is a config.json file in the /grunt directory where you can set the `asset_path` and `theme_name`.  Grunt config uses these variables, as does Assemble, so there should be no additional configuration, other than naming the appropriate directories.
 
 ##Included Grunt tasks
 

@@ -6,15 +6,29 @@ Opinionated kick starter for a static site, built on Grunt.js with Bower, Assemb
 
 ##Getting started
 
+###Install NodeJS
+
 You need to install [NodeJS](http://nodejs.org/) in order to use [npm](https://www.npmjs.com/), Node's package manager.
 
-Next you'll install the Grunt and the associated plugins.  From your project directory, run the following command:
+Make sure you add /usr/local/bin is in your $PATH.  Located in your home directory.
+
+###Installing Grunt
+
+Install Grunt via Node package manager.
+
+`sudo npm install -g grunt-cli`
+
+` -g` option is for global.
+
+For bower packages, install using `npm install -g bower`
+
+Next you'll install the Grunt plugins as defined in the package.json config file.  From your project directory, run the following command:
 
 ```
 sudo npm install
 ```
 
-Now that Grunt is installed, you want to run a Grunt task for the first time.  Use the following command.
+Now that Grunt is installed, you'll want to run a Grunt task for the first time.  Use the following command.
 
 ```
 grunt build
